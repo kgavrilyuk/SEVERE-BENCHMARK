@@ -8,8 +8,8 @@
 import os
 from datasets.video_db import VideoDataset
 
-DATA_PATH = '/ssdstore/fmthoker/hmdb51/videos'
-ANNO_PATH = '/ssdstore/fmthoker/hmdb51/splits'
+DATA_PATH = '/mnt/rnd/kirill/workspace/Last_chapter/datasets/hmdb51/videos'
+ANNO_PATH = '/mnt/rnd/kirill/workspace/Last_chapter/datasets/hmdb51/splits'
 
 
 class HMDB(VideoDataset):
