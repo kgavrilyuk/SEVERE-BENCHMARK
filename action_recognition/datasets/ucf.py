@@ -9,8 +9,8 @@ from datasets.video_db import VideoDataset
 import numpy as np
 import math
 
-DATA_PATH = '/local-ssd/fmthoker/ucf101/UCF-101'
-ANNO_PATH = '/local-ssd/fmthoker/ucf101/ucfTrainTestlist'
+DATA_PATH = '/mnt/rnd/kirill/workspace/Last_chapter/datasets/ucf101/UCF-101'
+ANNO_PATH = '/mnt/rnd/kirill/workspace/Last_chapter/datasets/ucf101/ucfTrainTestlist'
 
 from datasets.utils import get_subset_data
 
